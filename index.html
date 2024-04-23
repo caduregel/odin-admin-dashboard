@@ -18,30 +18,41 @@
 
         <div class="dashboard-items" id="tabs">
             <button class="dashboard-item"><img src="./icons/home.svg" class="dash-icon" alt="">Home</button>
-            <button class="dashboard-item"><img src="./icons/card-account-details.svg" class="dash-icon" alt="">Profile</button>
+            <button class="dashboard-item"><img src="./icons/card-account-details.svg" class="dash-icon"
+                    alt="">Profile</button>
             <button class="dashboard-item"><img src="./icons/message.svg" class="dash-icon" alt="">Messages</button>
             <button class="dashboard-item"><img src="./icons/history.svg" class="dash-icon" alt="">History</button>
-            <button class="dashboard-item"><img src="./icons/format-list-bulleted-square.svg" class="dash-icon" alt="">Tasks</button>
-            <button class="dashboard-item"><img src="./icons/account-group.svg" class="dash-icon" alt="">Communities</button>
+            <button class="dashboard-item"><img src="./icons/format-list-bulleted-square.svg" class="dash-icon"
+                    alt="">Tasks</button>
+            <button class="dashboard-item"><img src="./icons/account-group.svg" class="dash-icon"
+                    alt="">Communities</button>
         </div>
         <div class="dashboard-items" id="dashboard-general">
             <button class="dashboard-item"><img src="./icons/cog-outline.svg" class="dash-icon" alt="">Settings</button>
-            <button class="dashboard-item"><img src="./icons/help-box-outline.svg" class="dash-icon" alt="">Support</button>
+            <button class="dashboard-item"><img src="./icons/help-box-outline.svg" class="dash-icon"
+                    alt="">Support</button>
             <button class="dashboard-item"><img src="./icons/shield-lock.svg" class="dash-icon" alt="">Privacy</button>
         </div>
     </div>
+
+
+    <!-- Header -->
     <div id="non-dash-container">
+
         <!-- Header -->
         <div id="header">
-            <div>
+            <div id="top-header">
+                <img src="icons/magnify.svg" alt="magnifying glass" style="width: 40px; height: 40px;">
                 <input type="text">
-                <img src="" alt="User Logo">
+                <img src="https://static.wixstatic.com/media/223cb7_753782e3169b45db9b3fd06184fe1ed6~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/223cb7_753782e3169b45db9b3fd06184fe1ed6~mv2.jpg"
+                    style="height: 60px; width: 60px; border-radius: 50%;" alt="User Logo">
                 <p>Loki Mischief</p>
             </div>
-            <div>
-                <img src="" alt="User Logo">
+            <div id="bottom-header">
+                <img src="https://static.wixstatic.com/media/223cb7_753782e3169b45db9b3fd06184fe1ed6~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/223cb7_753782e3169b45db9b3fd06184fe1ed6~mv2.jpg"
+                    alt="User Logo" style="height: 88px; width: 88px; border-radius: 50%;">
                 <p>Welcome,</p>
-                <h2>God of Mischief</h2>
+                <h2>God of Mischief <span>&#40;</span><span>&#64;</span>loki<span>&#41;</span></h2>
                 <div class="create-content-buttons">
                     <button class="create-content-button">New</button>
                     <button class="create-content-button">Upload</button>
@@ -54,49 +65,61 @@
         <div id="content">
             <!-- Projects -->
             <div id="projects">
-                <div class="project-label">
-                    <p class="project-tite">Super Cool Project</p>
-                    <p class="project-content">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div>
+                    <h3>Your Projects</h3>
                 </div>
-                <div class="project-label">
-                    <p class="project-tite">Insanely Boring Project</p>
-                    <p class="project-content">
+                <div id="project-container">
+                    <div class="project-label">
+                        <p class="project-title">Super Cool Project</p>
+                        <p class="project-content">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                    <div class="project-label">
+                        <p class="project-title">Insanely Boring Project</p>
+                        <p class="project-content">
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis imperdiet ipsum. Quisque
-                        pulvinar felis nisi, nec volutpat ex facilisis et. Donec ut elementum diam. Suspendisse
-                        dignissim
-                        velit eu turpis. </p>
-                </div>
-                <div class="project-label">
-                    <p class="project-tite">Something about horses</p>
-                    <p class="project-content">Aenean sed fermentum orci. Maecenas tincidunt orci vitae ultricies
-                        pretium.
-                        Quisque tincidunt dui vel semper egestas. Pellentesque at interdum metus. </p>
-                </div>
-                <div class="project-label">
-                    <p class="project-tite">KFC Meal bucketlist</p>
-                    <p class="project-content">Mauris euismod vulputate diam in ornare. Suspendisse vitae nunc et ligula
-                        accumsan convallis in eget massa. Donec malesuada, augue sed accumsan tempor, neque orci
-                        consectetur
-                        odio, non vestibulum felis mi nec tortor. Sed mattis nec mauris ut vehicula. </p>
-                </div>
-                <div class="project-label">
-                    <p class="project-tite">Why McDOnalds Sucks</p>
-                    <p class="project-content">Maecenas nulla mi, fringilla dignissim auctor id, pulvinar sed nunc.
-                        Praesent
-                        mi orci, posuere et lorem quis, consequat sodales purus.</p>
-                </div>
-                <div class="project-label">
-                    <p class="project-tite">MMH FOOD</p>
-                    <p class="project-content">I got this girl and she wants me to duke her
-                        I told her I'd come scoop her around eight, she said, "Super!
-                        That sounds great!" Shorty girl's a trooper
-                        No matter what I need her to do, she be like, "Super!"</p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis imperdiet ipsum.
+                            Quisque
+                            pulvinar felis nisi, nec volutpat ex facilisis et. Donec ut elementum diam. Suspendisse
+                            dignissim
+                            velit eu turpis. </p>
+                    </div>
+                    <div class="project-label">
+                        <p class="project-title">Something about horses</p>
+                        <p class="project-content">Aenean sed fermentum orci. Maecenas tincidunt orci vitae
+                            ultricies
+                            pretium.
+                            Quisque tincidunt dui vel semper egestas. Pellentesque at interdum metus. </p>
+                    </div>
+                    <div class="project-label">
+                        <p class="project-title">KFC Meal bucketlist</p>
+                        <p class="project-content">Mauris euismod vulputate diam in ornare. Suspendisse vitae nunc
+                            et ligula
+                            accumsan convallis in eget massa. Donec malesuada, augue sed accumsan tempor, neque orci
+                            consectetur
+                            odio, non vestibulum felis mi nec tortor. Sed mattis nec mauris ut vehicula. </p>
+                    </div>
+                    <div class="project-label">
+                        <p class="project-title">Why McDOnalds Sucks</p>
+                        <p class="project-content">Maecenas nulla mi, fringilla dignissim auctor id, pulvinar sed
+                            nunc.
+                            Praesent
+                            mi orci, posuere et lorem quis, consequat sodales purus.</p>
+                    </div>
+                    <div class="project-label">
+                        <p class="project-title">MMH FOOD</p>
+                        <p class="project-content">I got this girl and she wants me to duke her
+                            I told her I'd come scoop her around eight, she said, "Super!
+                            That sounds great!" Shorty girl's a trooper
+                            No matter what I need her to do, she be like, "Super!"</p>
+                    </div>
                 </div>
             </div>
+
+
             <!-- Announcements -->
             <div id="announcements">
                 <div class="announcement-label">

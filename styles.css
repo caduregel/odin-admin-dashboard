@@ -216,3 +216,35 @@ body {
 #announcements>h3 {
     margin-left: 15px;
 }
+
+/* Trending */
+
+#trending {
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 370px;
+    margin-top: 13px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 25%);
+}
+
+.trending-label {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.trending-label > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
